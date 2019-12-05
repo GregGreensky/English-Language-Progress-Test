@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://engraft.pl/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://engraft.pl/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://engraft.pl/">
+      <s:element name="ChangeStoppageTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="StoppageTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangeStoppageTimeResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ChangeStoppageTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangeStoppageTime" />
+  </wsdl:message>
+  <wsdl:message name="ChangeStoppageTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangeStoppageTimeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EngraftServiceSoap">
+    <wsdl:operation name="ChangeStoppageTime">
+      <wsdl:input message="tns:ChangeStoppageTimeSoapIn" />
+      <wsdl:output message="tns:ChangeStoppageTimeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EngraftServiceSoap" type="tns:EngraftServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChangeStoppageTime">
+      <soap:operation soapAction="https://engraft.pl/ChangeStoppageTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EngraftServiceSoap12" type="tns:EngraftServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChangeStoppageTime">
+      <soap12:operation soapAction="https://engraft.pl/ChangeStoppageTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EngraftService">
+    <wsdl:port name="EngraftServiceSoap" binding="tns:EngraftServiceSoap">
+      <soap:address location="http://localhost/Testery/EngraftService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EngraftServiceSoap12" binding="tns:EngraftServiceSoap12">
+      <soap12:address location="http://localhost/Testery/EngraftService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

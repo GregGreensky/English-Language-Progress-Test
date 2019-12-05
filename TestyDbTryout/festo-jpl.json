@@ -1,0 +1,656 @@
+﻿{
+    "test": {
+        "TestID": "English File Elementary Units 7A-7C",
+        "TestType": "semester",
+        "Group": "FESTO środy",
+        "Level": "Elementary (A1)",
+        "Time": "11:00:00",
+        "RevealDetailedResultsDateTime": "10/13/2019",
+        "random": false,
+        "sections": false,
+        "questions": [{
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "task": "Complete the sentences. Use the past simple form of the verb in brackets.<br><br><span style='font-weight:normal;'>Remember: <u>letter size</u> is important.</span>",
+                "example": "My parents <input type=\"text\" size=\"15\"  style=\"text-align:center;\" value=\"lived\" readonly/> (live) in Italy. Now they live in the USA.",
+                "question": "",
+                "text": "When *gap* the film *gap* (finish)?",
+                "answers": ["did", "finish"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "They *gap* (not like) the food in the café.",
+                "answers": ["did not like/didn't like"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "We *gap* (not phone) because it was late.",
+                "answers": ["did not phone/didn't phone"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "I *gap* (study) yesterday morning.",
+                "answers": ["studied"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "The man *gap* (stop) his car near my house.",
+                "answers": ["stopped"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "What time *gap* he *gap* (arrive)?",
+                "answers": ["did", "arrive"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "*gap* you *gap* (watch) the match?",
+                "answers": ["Did", "watch"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "past simple form of the verb here",
+                "question": "",
+                "text": "The shop *gap* (not open) until 10 a.m..",
+                "answers": ["did not open/didn't open"]
+            },
+
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "task": "Complete the conversation. Put one word in each gap.<br><br>Remember, letter size is important!",
+                "example": "<b>Anna</b>&emsp; Did you and Matt go out last night? <br><b>Jane</b>&emsp; Yes, we <input type='text' size=10 style='text-align:center;' value='did' readonly />, we went to a restaurant.",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; Did you go there by bus? <br><b>Jane</b>&emsp; No, we *gap*. We took a taxi.",
+                "answers": ["did not/didn't"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; What did you wear? <br><b>Jane</b>&emsp; I *gap* my new skirt.",
+                "answers": ["wore"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; What did you have to eat? <br><b>Jane</b>&emsp; I *gap* a pizza.",
+                "answers": ["ate"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; What time did you leave? <br><b>Jane</b>&emsp; We *gap* at eight o'clock.",
+                "answers": ["left"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; Did you go home after that? <br><b>Jane</b>&emsp; No, we *gap* a film at the cinema.",
+                "answers": ["saw"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "one word only",
+                "question": "",
+                "text": "<b>Anna</b>&emsp; When did you get home? <br><b>Jane</b>&emsp; We didn't *gap* home until 12.",
+                "answers": ["get"]
+            },
+
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "task": "Choose the correct word or phrase",
+                "example": "Where  _________________ Lesley born?<br><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex11' disabled><label id='lblex11' class='custom-control-label' for='ex11' value='a. were'>a. were</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex21' disabled checked><label id='lblex21'  class='custom-control-label' for='ex21' value='b. was'>b. was</label></div>",
+                "option": "radio",
+                "question": "I ________________ at home last night.",
+                "answers": ["wasn't", "weren't"],
+                "corr": ["wasn't"]
+            },
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "option": "radio",
+                "question": "_______ Steve and Michelle at Tim’s party?",
+                "answers": ["Were", "Was"],
+                "corr": ["Were"]
+            },
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "option": "radio",
+                "question": "Where ____________ on Tuesday?",
+                "answers": ["you were", "were you"],
+                "corr": ["were you"]
+            },
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "option": "radio",
+                "question": "The shops _________ open yesterday.",
+                "answers": ["wasn’t", "weren’t"],
+                "corr": ["weren’t"]
+            },
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "option": "radio",
+                "question": "We __________ at the gym last Sunday.",
+                "answers": ["was", "were"],
+                "corr": ["were"]
+            },
+            {
+                "section": "grammar",
+                "skill": "Grammar",
+                "option": "radio",
+                "question": "Yesterday _______ Monday.",
+                "answers": ["were", "was"],
+                "corr": ["was"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "number",
+                "task": "Put the events a–g in order from 1–7.",
+                "example": "<input type=\"text\" size=3 style=\"text-align:center;\" value=\"1\" readonly /> a. Anna was here a few minutes ago.",
+                "question": "",
+                "text": "*gap* b. Mike phoned me the day before yesterday.",
+                "answers": ["4"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "number",
+                "question": "",
+                "text": "*gap* c. John and Anna got married two years ago.",
+                "answers": ["6"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+
+                "placeholder": "number",
+                "question": "",
+                "text": "*gap* d. Chris lost his car keys last night.",
+                "answers": ["2"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "number",
+                "question": "",
+                "text": "*gap* e. I was born in 1988.",
+                "answers": ["7"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "number",
+                "question": "",
+                "text": "*gap* f. We went skiing last winter.",
+                "answers": ["5"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "number",
+                "question": "",
+                "text": "*gap* g. We got up late yesterday morning.",
+                "answers": ["3"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "task": "Complete the phrases with <i>go</i>, <i>have</i>, or <i>get</i>.",
+                "example": "___________ to church.<br><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex13' disabled checked><label id='lblex13' class='custom-control-label' for='ex13' value='a. go'>a. go</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex23' disabled><label id='lblex23'  class='custom-control-label' for='ex23' value='b. have'>b. have</label></div><div class='custom-control custom-radio'><input class='custom-control-input' type='radio' id='ex33' disabled><label id='lblex31' class='custom-control-label' for='ex33' value='c. get'>c. get</label></div>",
+                "option": "radio",
+                "question": "__________ to a restaurant",
+                "answers": ["go", "have", "get"],
+                "corr": ["go"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ a letter",
+                "answers": ["go", "have", "get"],
+                "corr": ["get"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ a meal with friends",
+                "answers": ["go", "have", "get"],
+                "corr": ["have"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ back to work",
+                "answers": ["go", "have", "get"],
+                "corr": ["go"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ out on Friday night",
+                "answers": ["go", "have", "get"],
+                "corr": ["go"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ dressed",
+                "answers": ["go", "have", "get"],
+                "corr": ["get"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ a good time",
+                "answers": ["go", "have", "get"],
+                "corr": ["have"]
+            },
+            {
+                "section": "Vocabulary",
+                "skill": "Vocabulary",
+                "option": "radio",
+                "question": "__________ up late",
+                "answers": ["go", "have", "get"],
+                "corr": ["get"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "task": "Complete the sentences with the correct word.<br><span class='highlight'>Remember -</span> letter size is important!",
+                "example": "He sings songs. He’s a s<input type=\"text\" style=\"text-align:center;\" value=\"inger\" readonly />.",
+                "question": "",
+                "text": "She’s studying politics because she wants to be a p*gap*.",
+                "answers": ["olitician"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "question": "",
+                "text": "My favourite a*gap* is Sandra Bullock. I love her films.",
+                "answers": ["ctress"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "question": "",
+                "text": "Which a*gap* painted the <i>Mona Lisa</i>?",
+                "answers": ["rtist"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "question": "",
+                "text": "A poet writes p*gap*.",
+                "answers": ["oems"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "question": "",
+                "text": "A n*gap* writes novels.",
+                "answers": ["ovelist"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "correct word",
+                "question": "",
+                "text": "Which d*gap* directed the first James Bond film?",
+                "answers": ["irector"]
+            },
+            {
+                "section": "reading",
+                "skill": "Reading",
+                "task": "<b>READING</b><br>Read the text and choose A, B, or C.",
+                "question": "",
+                "content": "<span style='font-weight:normal;'>‘Last year my boyfriend Mark was forty and I wanted to get him a special present for his birthday. Just before Christmas I saw tickets for a Bruce Springsteen concert for sale on the internet. The concert was in Sheffield, about 25 miles away from where we live, and Mark is a big fan of Bruce Springsteen so I decided to buy two tickets. They weren’t cheap – I think I paid around £90 for each one. I wanted to surprise Mark, so I didn’t tell him about it.<br>On the day of the concert, I told Mark that I wanted to do some Christmas shopping in Sheffield. We left in my car just after lunch and spent the afternoon in a big shopping centre. I bought Christmas presents for my family and a skirt for work. Mark looked for some new jeans, but he couldn’t find any that he liked. By the time we finished shopping it was nearly 6 p.m. and we were hungry so we had dinner in a Japanese restaurant. After dinner we left the shopping centre and set off on our way home. On the way we passed the concert hall and we could see the crowds of fans outside. Mark was really surprised when I drove into the concert hall car park and gave him the tickets!<br>The concert was fantastic. We danced all night and Mark took lots of photos on his mobile phone. Afterwards we bought a concert CD. We put it on when we got in the car and we sang all of the songs as we drove home. We didn’t get back home until nearly one o’clock in the morning and we were both really tired, but it was a great night and Mark really enjoyed his surprise.’</span>",
+                "example": "Debbie took her boyfriend to see a ___.<br><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex1' disabled checked><label id='lblex1' class='custom-control-label' for='ex1' value='a. concert'>a. concert</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex2' disabled><label id='lblex2' class='custom-control-label' for='ex2' value='b. film'>b. film</label></div><div class='custom-control custom-radio'><input class='custom-control-input' type='radio' id='ex3' disabled><label id='lblex3' class='custom-control-label' for='ex3' value='c. friend'>c. friend</label></div>",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "The tickets were a ___ present.",
+                        "subanswers": ["Christmas", "birthday", "cheap"],
+                        "subcorr": ["birthday"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "The tickets were on sale ___.",
+                        "subanswers": ["at the shopping centre  ", "on an internet site", "at the concert hall"],
+                        "subcorr": ["on an internet site"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "They arrived in Sheffield in the ___.",
+                        "subanswers": ["morning", "afternoon", "evening"],
+                        "subcorr": ["afternoon"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "Mark wanted to buy ___.",
+                        "subanswers": ["jeans", "a skirt for Debbie", "Christmas presents"],
+                        "subcorr": ["jeans"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "They ate something ___ the concert.",
+                        "subanswers": ["before", "during", "after"],
+                        "subcorr": ["before"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "Debbie gave the tickets to Mark ___.",
+                        "subanswers": ["in the car park", "in the concert hall", "at the restaurant"],
+                        "subcorr": ["in the car park"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "They ___ on the way back to their house.",
+                        "subanswers": ["listened to the radio", "talked about the concert", "sang Bruce Springsteen songs"],
+                        "subcorr": ["sang Bruce Springsteen songs"]
+                    }
+                ]
+            },
+
+            {
+                "section": "reading",
+                "skill": "Reading",
+                "task": "Read the text again. Are the sentences True (T) or False (F)?",
+                "question": "",
+                "content": "",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "Debbie thought the tickets were cheap.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "Mark and Debbie don’t live in Sheffield.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["T"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Debbie bought some Christmas presents for Mark.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "They didn’t have dinner in a restaurant in the shopping centre.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "They walked from the shopping centre to the concert hall.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "They sat while they watched the concert.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Mark used his mobile phone to take photos.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["T"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "They arrived home early.",
+                        "subanswers": ["T", "F"],
+                        "subcorr": ["F"]
+                    }
+                ]
+            },
+
+
+            {
+                "section": "writing",
+                "criteria": "<span class='highlight'>Task completion:</span> The task is fully completed and the answer is easy to understand. <span class='highlight'>(4 marks)</span><br><span class='highlight'>Grammar:</span> The student uses appropriate structures to achieve the task. Minor errors do not obscure the meaning. <span class='highlight'>(3 marks)</span><br><span class='highlight'>Vocabulary:</span> The student uses a sufficient range of words and phrases to communicate the message clearly. <span class='highlight'>(3 marks)</span>",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "task": "Describe a day or an evening out that you enjoyed. Answer the questions with complete sentences.",
+                "question": "How long ago was it?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "Where did you go?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "Why did you go there?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "Who did you go with?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "What did you wear?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "What did you do?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "Did you meet anyone?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "What did you have to eat / drink?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "What time did you get back home?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "",
+                "word-count-max": "",
+                "question": "Did you have a good time?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "Listening",
+                "skill": "Listening",
+                "task": "<b>LISTENING</b><br>Listen to two people at a portrait gallery. Choose A, B, or C.",
+                "question": "Press the blue button below to start the recording.",
+                "content": "https://onedrive.live.com/download?cid=416D18EE8138A1CC&resid=416D18EE8138A1CC%218151&authkey=AH13xR4vNP0VRfA",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "The speakers are looking at _____.",
+                        "subanswers": ["paintings of sportspeople", "photographs of sportspeople", "pictures by sportspeople"],
+                        "subcorr": ["photographs of sportspeople"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Eddie Edwards is a famous _____.",
+                        "subanswers": ["swimmer", "sailor", "skier"],
+                        "subcorr": ["skier"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Ellen MacArthur broke the world record in _____.",
+                        "subanswers": ["2001", "2010", "2005"],
+                        "subcorr": ["2005"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "She sailed _____ when she was a teenager.",
+                        "subanswers": ["round Europe", "round Britain", "round the world"],
+                        "subcorr": ["round Britain"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "Ellen _____ in 2010.",
+                        "subanswers": ["stopped racing", "wrote a book about sailing", "won a lot of races"],
+                        "subcorr": ["stopped racing"]
+                    }
+                ]
+            },
+            {
+                "section": "listening",
+                "skill": "Listening",
+                "task": "Listen to five conversations. Choose A or B.",
+                "question": "Press the blue button below to start the recording.",
+                "content": "https://onedrive.live.com/download?cid=416D18EE8138A1CC&resid=416D18EE8138A1CC%218150&authkey=AICUXXMZ-LFCBUA",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "Anna was _____ on Saturday.",
+                        "subanswers": ["in a restaurant", "at a cinema"],
+                        "subcorr": ["at a cinema"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Jane met her husband _____.",
+                        "subanswers": ["on a bus", "on a train"],
+                        "subcorr": ["on a bus"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Mike worked _____ before he got his present job.",
+                        "subanswers": ["in a restaurant", "at the railway station"],
+                        "subcorr": ["in a restaurant"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Alan left his mobile phone _____.",
+                        "subanswers": ["in a café", "at a football match"],
+                        "subcorr": ["in a café"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "George was _____ last night.",
+                        "subanswers": ["at a football match", "at home"],
+                        "subcorr": ["at home"]
+                    }
+                ]
+            }
+        ]
+
+    }
+
+}

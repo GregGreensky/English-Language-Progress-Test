@@ -1,0 +1,606 @@
+{
+    "test": {
+        "TestID": "English File Pre-Intermediate Units 6A-6C",
+        "TestType": "semester",
+        "Group": "FESTO wtorki_czwartki",
+        "Level": "Pre-Intermediate (A2)",
+        "Time": "12:00:00",
+        "RevealDetailedResultsDateTime": "11/13/2019",
+        "random": false,
+        "sections": false,
+        "questions": [{
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "placeholder": "correct phrase",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Complete the sentences with <i>will / ’ll, won’t</i>, or <i>shall</i> and a verb.<br /><hr><span style='font-weight:normal;'>close &emsp;&emsp;&emsp;&emsp;not drive &emsp;&emsp;&emsp;&emsp; not forget &emsp;&emsp;&emsp;&emsp; <del>go</del> &emsp;&emsp;&emsp;&emsp;have &emsp;&emsp;&emsp;&emsp;help&emsp;&emsp;&emsp;&emsp;make<hr></span>",
+                "example": "\"How will you get to Berlin?\"&emsp;\"I <input type=\"text\" style=\"text-align:center;\" value=\"'ll go\" readonly /> by train.\"",
+                "question": "",
+                "text": "I'll ring you tomorrow - I *gap* !",
+                "answers": ["won't forget"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct phrase",
+                "question": "",
+                "text": "*gap* I *gap* you a sandwich?",
+                "answers": ["Shall", "make"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct phrase",
+                "question": "",
+                "text": "\"I can't do this exercise.\"&emsp; \"Don't worry I *gap* you.\"",
+                "answers": ["'ll help"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct phrase",
+                "question": "",
+                "text": "We *gap* to Oxford; we'll take the bus.",
+                "answers": ["won't drive"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct phrase",
+                "question": "",
+                "text": "*gap* we *gap* some water with our lunch?",
+                "answers": ["Shall", "have"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct phrase",
+                "question": "",
+                "text": "\"It's cold in here.\"&emsp; \"I *gap* the window.\"",
+                "answers": ["'ll close"]
+            },
+
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "placeholder": "verb form",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Complete the sentences. Use the correct form of the verb in brackets.<br><br>Remember, letter size is important!",
+                "example": "Magda <input type='text' size=10 style='text-align:center;' value='is having' readonly /> (have) an English lesson right now.",
+                "question": "",
+                "text": "Otto isn't here today. He *gap* (not work) on Fridays.",
+                "answers": ["does not work/doesn't work"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "I'm tired! I *gap* (not sleep) well last night.",
+                "answers": ["didn't sleep/did not sleep"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "Where *gap* they *gap* (going) when yu saw them yesterday?",
+                "answers": ["were", "going"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "I promise I *gap* (not be) late.",
+                "answers": ["won't be/will not be"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "*gap* Emily ever *gap* (be) abroad?",
+                "answers": ["Has", "been"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "I *gap* (see) the doctor tomorrow morning - I've got an appointment.",
+                "answers": ["'m seeing/am seeing"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "They aren't hungry. They *gap* just *gap* (have) breakfast.",
+                "answers": ["'ve/have", "had"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "verb form",
+                "question": "",
+                "text": "Sarah *gap* (look) for a job when she finished school.",
+                "answers": ["is going to look/'s going to look/is gonna look/'s gonna look"]
+            },
+
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "placeholder": "prediction",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Write predictions with <i>will / won't</i>.",
+                "example": "we / miss / the train ?<br><input type='text' size=20 style='text-align:center;' value='Will we miss the train?' readonly />",
+                "question": "what time / Giorgio and Rosana / arrive ?",
+                "text": "*gap*",
+                "answers": ["What time will Giorgio and Rosanna arrive?"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "prediction",
+                "question": "I / sure / I / not enjoy / Sue’s party",
+                "text": "*gap*",
+                "answers": ["I'm sure I won't enjoy Sue's party./I'm sure I will not enjoy Sue's party./I am sure I will not enjoy Sue's party./I am sure I won't enjoy Sue's party."]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "prediction",
+                "question": "there / be / heavy rain this evening",
+                "text": "*gap*",
+                "answers": ["There will be heavy rain this evening./There'll be heavy rain this evening."]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "prediction",
+                "question": "I / not think / we / find / anywhere to park",
+                "text": "*gap*",
+                "answers": ["I don't thnk we'll find anywhere to park./I do not think we'll find anywhere to park./I don't think we will find anywhere to park./I do not think we will find anywhere to park."]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "prediction",
+                "question": "he / not pass / the exam",
+                "text": "*gap*",
+                "answers": ["He won't pass the exam./He will not pass the exam."]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Grammar",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "prediction",
+                "question": "you / think / it / snow tonight ?",
+                "text": "*gap*",
+                "answers": ["Do you think it will snow tonight?/Do you think it'll snow tonight?"]
+            },
+
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "correct verb",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Complete the sentences with the correct verb from the box.<br /><hr><span style='font-weight:normal;'>call &emsp;&emsp;&emsp;&emsp;come &emsp;&emsp;&emsp;&emsp; give &emsp;&emsp;&emsp;&emsp; <del>go</del> &emsp;&emsp;&emsp;&emsp;pay  &emsp;&emsp;&emsp;&emsp;send  &emsp;&emsp;&emsp;&emsp; take<hr></span>",
+                "example": "That’s the end of the coffee break. Now it’s time to <input type=\"text\" style=\"text-align:center;\" value=\"go\" readonly /> back to work.",
+                "question": "",
+                "text": "That’s my book. *gap* it back to me.",
+                "answers": ["Give"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct verb",
+                "question": "",
+                "text": "We'll *gap* back here after the meeting.",
+                "answers": ["come"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct verb",
+                "question": "",
+                "text": "I don’t like these boots I bought on the internet. I’m going to *gap* them back.",
+                "answers": ["send"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct verb",
+                "question": "",
+                "text": "Lend us £20 and we’ll *gap* you back tomorrow.",
+                "answers": ["pay"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct verb",
+                "question": "",
+                "text": "Leave me your phone number and I’ll *gap* you back in half an hour.",
+                "answers": ["call"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct verb",
+                "question": "",
+                "text": "He' going to *gap* the jumper back to the shop. He doesn’t like it.",
+                "answers": ["take"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "correct preposition",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Complete the sentences with the correct preposition.",
+                "example": "The shops are always full  <input type=\"text\" style=\"text-align:center;\" value=\"of\" readonly /> customers at the weekend.",
+                "question": "",
+                "text": "I think China is very different  *gap* Canada.",
+                "answers": ["from"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct preposition",
+                "question": "",
+                "text": "What subjects were you good *gap* when you were at school?",
+                "answers": ["at"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct preposition",
+                "question": "",
+                "text": "I get angry *gap* my sister when she borrows my clothes.",
+                "answers": ["with/at"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct preposition",
+                "question": "",
+                "text": "Too much salt is bad *gap* you.",
+                "answers": ["for"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct preposition",
+                "question": "",
+                "text": "Why aren’t you nice *gap* your brother?",
+                "answers": ["to"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "a correct preposition",
+                "question": "",
+                "text": "Are you interested *gap* music?",
+                "answers": ["in"]
+            },
+
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "placeholder": "write the opposite",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "task": "Write the opposite.",
+                "example": "push the door <input type=\"text\" style=\"text-align:center;\" value=\"pull the door\" readonly />",
+                "question": "",
+                "text": "catch the bus *gap*",
+                "answers": ["miss the bus"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "fail an exam *gap*",
+                "answers": ["pass an exam"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "send a letter *gap*",
+                "answers": ["get a letter/receive a letter"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "teach English *gap*",
+                "answers": ["learn English/study English"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "remember a name *gap*",
+                "answers": ["forget a name"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "find a key *gap*",
+                "answers": ["lose a key"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "sell a house *gap*",
+                "answers": ["buy a house"]
+            },
+            {
+                "section": "gap-filling",
+                "skill": "Vocabulary",
+                "criteria": "<span class='highlight'>Remember -</span> letter size is important!",
+                "placeholder": "write the opposite",
+                "question": "",
+                "text": "finish work *gap*",
+                "answers": ["start work/begin work/commence work"]
+            },
+
+            {
+                "section": "reading",
+                "skill": "Reading",
+                "task": "<b>READING</b><br />Read the article about positive thinking and choose A, B, or C.",
+                "question": "",
+                "content": "<h2>Are you a positive thinker?</h2><p>On our website this week, Dr Charles offers some tips on positive thinking.</p><p>Are you an optimist? I hope so, because if you are, you’ll live longer and you’ll be healthier. Or are you a pessimist? I hope not. Studies show that you won’t enjoy life as much and you’ll take longer to get better when you’re ill. So how do you think positive, not negative, thoughts? Here are some tips on how to be a positive thinker.</p><p><b>Stop thinking negative thoughts</b> such as ‘I’ll never find a partner’ or ‘I’ll never pass my driving test’. Find something positive to do. Phone your best friend and have a chat. Go out and do some exercise. Put on a funny DVD. This will stop you thinking negative thoughts, and will cheer you up.</p><p><b>Don’t compare your life with other people’s lives.</b> For example, thoughts like ‘She’s got a better job’ or ‘He’s got a bigger house’ make you feel pessimistic about life. Change your thinking to ‘I’ve got a good job and I like my work’ and ‘I’m happy in this house. It’s big enough for me’. Remember, being successful doesn’t always mean you are happy. </p><p><b>Write down your negative thoughts.</b> This will help you to clear those thoughts from your head. And that will make you feel more positive. You could also write down positive things that happened to you. Read them when you are feeling sad or depressed, and that will make you feel more positive.</p><p><b> Use positive language when you speak.</b> This will make you think more positively. For example, don’t say ‘Our holiday was a disaster’. Say ‘Next holiday, we’re going to do things differently’. Don’t say ‘Famous? It’ll never happen’. Say ‘Famous? I’ll try my best’. Try it – it works! <br /><br /> <br><span class='sub-pyt' style='font-family:Roboto; font-size:18px;'>According to Dr Charles, ...</span>",
+                "example": "... if you’re an optimist, you’ll live longer.<br /><div  class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex1' checked><label id='lblex1' style='font-family:Roboto, sans-serif; font-size:18px;' class='custom-control-label' for='ex1' value='a. True'>a. True</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex2' disabled><label style='font-family:Roboto, sans-serif; font-size:18px;' id='lblex2' class='custom-control-label' for='ex2' value='b. False'>b. False</label></div><div class='custom-control custom-radio'><input class='custom-control-input' type='radio' id='ex3' disabled><label style='font-family:Roboto, sans-serif; font-size:18px;' id='lblex3' class='custom-control-label' for='ex3' value='c. Doesn't say'>c. Doesn't say</label></div></span>",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "... if you’re an optimist, you’ll be healthier.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["True"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you’re a pessimist, you won’t get ill.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["False"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... we should try not to have negative thoughts.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["True"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you do something positive, your life will change.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["Doesn't say"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... you should compare yourself with others.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["False"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you’re successful, you aren’t always happy.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["True"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you write down your negative thoughts, you won’t have them again.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["Doesn't say"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "... you should never write down your positive thoughts.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["False"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you read your positive thoughts, you’ll always be an optimist.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["Doesn't say"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "... if you use positive language, you’ll think more positively.",
+                        "subanswers": ["True", "False", "Doesn't say"],
+                        "subcorr": ["True"]
+                    }
+                ]
+            },
+
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "0",
+                "word-count-max": "50",
+                "task": "Read the article again and answer the questions.",
+                "question": "<div>What positive things can you do if you are thinking negative thoughts?</div>",
+                "answers": [],
+                "corr": []
+            },
+
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "0",
+                "word-count-max": "50",
+                "question": "What will happen if you do something positive (e.g. watch a funny DVD)?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "0",
+                "word-count-max": "50",
+                "question": "If you are unhappy because you think your home is too small, what should you do?",
+                "answers": [],
+                "corr": []
+            },
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "0",
+                "word-count-max": "50",
+                "question": "What should you read if you are feeling sad?",
+                "answers": [],
+                "corr": []
+            },
+
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "0",
+                "word-count-max": "50",
+                "question": "What should you say if your holiday was a disaster?",
+                "answers": [],
+                "corr": []
+            },
+
+            {
+                "section": "writing",
+                "skill": "Writing",
+                "word-count-min": "100",
+                "word-count-max": "150",
+                "task": "Your friend is feeling sad and depressed because she has just lost her job. Write her an email, giving some tips to make her feel more positive (100–150 words). Include the following information.",
+                "question": "<p><b>Paragraph one</b><br><span style='font-weight:normal;'>Explain the reason for your email.</span></p><p><b>Paragraph two</b><br><span style='font-weight:normal;'>Give her some tips to keep positive – ideas for things to do / not to do and why; give examples of things to say / not to say and why.</span></p><p><b>Paragraph three</b><br><span style='font-weight:normal;'>Tell her when you’ll come and visit to cheer her up.</span></p>",
+                "criteria": "<span class='highlight'><u>MARKING CRITERIA</u></span><br><span class='highlight'>Task completion:</span> The task is fully completed and the answer is easy to understand. <span class='highlight'>(4 marks)</span><br><span class='highlight'>Grammar:</span> The student uses appropriate structures to achieve the task. Minor errors do not obscure the meaning. <span class='highlight'>(3 marks)</span><br><span class='highlight'>Vocabulary:</span> The student uses a sufficient range of words and phrases to communicate the message clearly. <span class='highlight'>(3 marks)</span>",
+                "answers": [],
+                "corr": []
+            },
+
+            {
+                "section": "Listening",
+                "skill": "Listening",
+                "task": "<b>LISTENING</b><br />Listen to the conversation. Choose A or B.",
+                "question": "Press the blue button below.",
+                "content": "https://onedrive.live.com/download?cid=416D18EE8138A1CC&resid=416D18EE8138A1CC%219024&authkey=AIEuG7FjN81a5tw",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "Anne and Robbie got engaged last night.",
+                        "subanswers": ["True", "False"],
+                        "subcorr": ["True"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Robbie has already bought Anne a ring.",
+                        "subanswers": ["True", "False"],
+                        "subcorr": ["False"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "They are going to get married this spring.",
+                        "subanswers": ["True", "False"],
+                        "subcorr": ["False"]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Sally will pay for Anne’s ticket.",
+                        "subanswers": ["True", "False"],
+                        "subcorr": ["False"]
+                    },
+
+                    {
+                        "option": "radio",
+                        "subquestion": "Anne and Robbie will probably move to London after they get married.",
+                        "subanswers": ["True", "False"],
+                        "subcorr": ["True"]
+                    }
+                ]
+            },
+            {
+                "section": "listening",
+                "skill": "Listening",
+                "task": "Listen to five people talking about a dream they had. Match the speakers with what they think their dreams mean (A–E).",
+                "question": "Press the blue button below.",
+                "content": "https://onedrive.live.com/download?cid=416D18EE8138A1CC&resid=416D18EE8138A1CC%219023&authkey=AENgEEJ9OPrty70",
+                "subquestions": [{
+                        "option": "radio",
+                        "subquestion": "Speaker 1",
+                        "subanswers": ["I'll be poor.", "I'll meet someone special.", "I'll loose the match.", "I'll become famous.", "I'll fail my test."],
+                        "subcorr": ["I'll loose the match."]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Speaker 2",
+                        "subanswers": ["I'll be poor.", "I'll meet someone special.", "I'll loose the match.", "I'll become famous.", "I'll fail my test."],
+                        "subcorr": ["I'll become famous."]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Speaker 3",
+                        "subanswers": ["I'll be poor.", "I'll meet someone special.", "I'll loose the match.", "I'll become famous.", "I'll fail my test."],
+                        "subcorr": ["I'll meet someone special."]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Speaker 4",
+                        "subanswers": ["I'll be poor.", "I'll meet someone special.", "I'll loose the match.", "I'll become famous.", "I'll fail my test."],
+                        "subcorr": ["I'll fail my test."]
+                    },
+                    {
+                        "option": "radio",
+                        "subquestion": "Speaker 5",
+                        "subanswers": ["I'll be poor.", "I'll meet someone special.", "I'll loose the match.", "I'll become famous.", "I'll fail my test."],
+                        "subcorr": ["I'll be poor."]
+                    }
+                ]
+            }
+        ]
+
+    }
+
+}

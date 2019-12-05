@@ -1,0 +1,388 @@
+﻿{
+  "test": {
+    "TestID": "FESTO_środy_Dec2018_Chapter3",
+    "TestType": "semester",
+    "Group": "FESTO wtorki_czwartki",
+    "Level": "Elementary (A1)",
+    "Time": "12:00:00",
+    "RevealDetailedResultsDateTime": "10/20/2018",
+    "random": false,
+    "sections": false,
+    "questions": [
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "correct form of the verb",
+        "task": "Complete the sentences with the correct form of the verb in brackets.<br /><span style='font-weight:normal;'>Remember: <u>letter size</u> is important.",
+        "criteria": "W zadaniach w których możliwe są co najmniej <span class='highlight'>dwie</span> opcje wyboru, za wybranie błędnej opcji odejmowany jest  <span class='highlight'>jeden punkt</span>",
+        "example": "She <input type='text' size=10 style='text-align:center;' value='reads' readonly> (read) the newspapers in an office.",
+        "question": "",
+        "text": "They *gap* (work) in an office.",
+        "answers": [ "work" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "correct form of the verb",
+        "question": "",
+        "text": "Tony *gap* (study) at the university.",
+        "answers": [ "studies" ]
+      },
+
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "option": "radio",
+        "task": "Complete the sentences with the correct word.",
+        "example": "He _________ breakfast every morning.<br><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex1' disabled><label id='lblex1' class='custom-control-label' for='ex1' value='a. does'>a. does</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex2' disabled><label id='lblex2' class='custom-control-label' for='ex2' value='b. goes'>b. goes</label></div><div class='custom-control custom-radio'><input class='custom-control-input' type='radio' id='ex3' checked disabled><label id='lblex3' class='custom-control-label' for='ex3' value='c. has'>c. has</label></div></span>",
+        "question": "The lesson __________ at eleven o’clock.",
+        "answers": [ "finishes", "goes", "does" ],
+        "corr": [ "finishes" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "option": "radio",
+        "question": "I __________ a shower every evening.",
+        "answers": [ "do", "get", "have" ],
+        "corr": [ "have" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "One word",
+        "task": "Complete the sentences with one word.<br /><br /><span style='font-weight:normal;'>Remember: <u>letter size</u> is important.",
+        "example": "<input type='text' size=10 style='text-align:center;' value='Do' readonly /> they live in France?",
+        "question": "",
+        "text": "*gap* your sister work in a school?",
+        "answers": [ "Does" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "One word",
+        "question": "",
+        "text": "What *gap* your parents do?",
+        "answers": [ "do" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "task": "Choose the correct word or phrase.",
+        "example": "It's _________________ pen.<br><input type='radio' value='Ann's' checked disabled> a. Ann's<br><input type='radio' value='the Ann's' disabled> b. the Ann's",
+        "option": "radio",
+        "question": "__________________ purse is this?",
+        "answers": [ "Whose", "Who's" ],
+        "corr": [ "Whose" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "option": "radio",
+        "question": "She's my ________________ wife.",
+        "answers": [ "teachers'", "teacher's" ],
+        "corr": [ "teacher's" ]
+      },
+
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "task": "Complete the sentences. Use the correct form of <i><u>going to</u></i> and a verb from the box.<hr>do&emsp;not finish&emsp;pass&emsp;<del>snow</del>&emsp;travel <hr>",
+        "example": "It's very cold. I think it<input type='text' style='text-align:center' value=''s going to snow' readonly /> tonight.",
+        "criteria": "Spacja lub nie",
+        "placeholder": "Correct form of going to and a verb here",
+        "question": "",
+        "text": "One day I *gap* around the world.",
+        "answers": [ "am going to travel/'m going to travel/am gonna travel/'m gonna travel" ]
+
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "Correct form of going to and a verb here",
+        "question": "",
+        "text": "What *gap* you *gap* when you leave university?",
+        "answers": [ "are/'re", "going to do/gonna do" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "Correct form of going to and a verb here",
+        "question": "",
+        "text": "It’s very late. We *gap* this report today.",
+        "answers": [ "aren't going to finish/are not going to finish/aren't gonna finish/are not gonna finish/'re not gonna finish" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "placeholder": "Correct form of going to and a verb here",
+        "question": "",
+        "text": "Do you think Martin *gap* his exams?",
+        "answers": [ "'s going to pass/is going to pass/'s gonna pass/is gonna pass" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "task": "Complete the airport words in the sentences.",
+        "example": "I met John in <b>a</b><input type='text' size=10 value='rrivals' readonly /> after my flight from Rome landed.",
+        "placeholder": "an airport word",
+        "question": "",
+        "text": "Which <b>t</b>*gap* do international flights leave from?",
+        "answers": [ "erminal" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "an airport word",
+        "question": "",
+        "text": "Flight 460 to Malaga leaves from <b>g</b>*gap* number 27.",
+        "answers": [ "ate" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "an airport word",
+        "question": "",
+        "text": "She didn’t stop at <b>c</b>*gap* as she had nothing to declare.",
+        "answers": [ "ustoms" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "an airport word",
+        "question": "",
+        "text": "You can take the <b>l</b>*gap* or the stairs to the next floor.",
+        "answers": [ "ift" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "task": "Complete the sentences with the correct word or phrase.<hr><span style='font-weight:normal;'>place &nbsp;&nbsp;&nbsp;&nbsp;similar &nbsp;&nbsp;&nbsp;&nbsp; <del>somebody</del> &nbsp;&nbsp;&nbsp;&nbsp; opposite &nbsp;&nbsp;&nbsp;&nbsp; something </span><hr>",
+        "example": "A vet is <input  size=10 type='text' value='somebody' style='text-align:center;' readonly /> who looks after sick animals.",
+        "placeholder": "a correct word or phrase",
+        "question": "",
+        "text": "<i>Tidy</i> is the *gap* of untidy.",
+        "answers": [ "opposite" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct word or phrase",
+        "question": "",
+        "text": "A market is a *gap* where you can buy fresh fruit and vegetables.",
+        "answers": [ "place" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct word or phrase",
+        "question": "",
+        "text": "A passport is *gap* which you need when you travel abroad.",
+        "answers": [ "something" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct word or phrase",
+        "question": "",
+        "text": "<i>Fat</i> and <i>overweight</i> have a *gap* meaning, but <i>overweight</i> is more polite.",
+        "answers": [ "similar" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "task": "Complete the phrases with the correct preposition.",
+        "example": "arive <input style='text-align:center;' type='text' size=5 value='at' readonly /> work",
+        "placeholder": "a correct preposition",
+        "question": "",
+        "text": "wait *gap* a friend",
+        "answers": [ "for" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct preposition",
+        "question": "",
+        "text": "fall *gap* love with someone",
+        "answers": [ "in" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct preposition",
+        "question": "",
+        "text": "spend money *gap* books",
+        "answers": [ "on" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "placeholder": "a correct preposition",
+        "question": "",
+        "text": "pay *gap* a meal",
+        "answers": [ "for" ]
+      },
+      {
+        "section": "reading",
+        "skill": "Reading",
+        "question": "<b>READING</b><br />Read the article about people who work at Heathrow airport and tick A, B, or C.",
+        "content": "<h4>Airport jobs</h4><span style='font-weight:normal;font-size:17px;'>At Heathrow airport, there are hundreds of interesting jobs people can do. We spoke to three people who work there.</span><h4>James Green, 26, security officer</h4><span style='font-weight:normal;font-size:17px;'>‘After I left college, I worked for a security company abroad. I wanted to come back to the UK so I applied for a job as a security officer at Heathrow. It’s our job to keep passengers and staff safe at all times. I meet passengers from all over the world every day and help them with their problems. People are usually friendly, but sometimes they get angry, especially if there are long queues or delays.’</span><h4>Teresa Jones, 30, service manager</h4><span style='font-weight:normal;font-size:17px;'>‘My job is to help passengers have a good journey through the airport terminal, from Arrivals to Departures. I talk to people all day and I’m tired in the evening. But it’s also very exciting, because it changes all the time. One minute you are making new travel arrangements for passengers, and the next minute you are dealing with a problem at passport control. The only bad thing about my job is getting up very early.’</span><h4>Husain Khaled, 35, terminal controller</h4><span style='font-weight:normal;font-size:17px;'>‘My first job at the airport was as a security officer. After that, I did a lot of different jobs here. When I saw a job for a terminal controller, I decided to apply. I like doing this work because there are all kinds of things to deal with – security, communication, safety, and so on. It can be very busy and I spend a lot of time talking to people on my mobile, but it’s always interesting.’</span><br /><br /><span style='font-family:Roboto, sans-serif; font-size:16px;'>Example: \t James meets passengers from all over _____.<br /><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex1' disabled><label id='lblex1' class='custom-control-label' for='ex1' value='a. the UK'>a. the UK</label></div><div class='custom-control custom-radio'><input type='radio' class='custom-control-input' id='ex2' checked disabled><label id='lblex2' class='custom-control-label' for='ex2' value='b. the world'>b. the world</label></div><div class='custom-control custom-radio'><input class='custom-control-input' type='radio' id='ex3' disabled><label id='lblex3' class='custom-control-label' for='ex3' value='c. Asia'>c. Asia</label></div></span>",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "James helps passengers with their _____.",
+            "subanswers": [ "problems", "tickets", "baggage" ],
+            "subcorr": [ "problems" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "James says that people are usually _____.",
+            "subanswers": [ "hungry", "friendly", "angry" ],
+            "subcorr": [ "friendly" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "In her job, Teresa _____ all day.",
+            "subanswers": [ "worries about people  ", "agrees with people", "talks to people" ],
+            "subcorr": [ "talks to people" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Teresa thinks her job is _____.",
+            "subanswers": [ "difficult", "exciting", "boring" ],
+            "subcorr": [ "exciting" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Husain doesn’t talk about _____.",
+            "subanswers": [ "communication", "delays", "security" ],
+            "subcorr": [ "delays" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Husain enjoys working as a terminal controller because _____.",
+            "subanswers": [ "he does lots of things", "the people are friendly", "he likes airports" ],
+            "subcorr": [ "he does lots of things" ]
+          }
+        ]
+      },
+      {
+        "section": "writing",
+        "skill": "Writing",
+        "word-count-min": "100",
+        "word-count-max": "150",
+        "question": "Your pen friend emails you and asks about your plans to visit him / her. Write a letter and answer these questions. (100–150 words).<div style='font-weight:normal;'><ul><li>How are you and your family?<li>What date are you coming to visit me?<li>Are you flying or coming by train?<li>What time are you arriving?<li>What do you want to do when you are here?</ul></div><br />Begin your letter like this:<br /><span style='font-weight:normal;'>Hi ......... .<br />Thanks for your email. I'm ........</span>",
+        "criteria": "Wszystkie wymagane 'informacje': 3 pkt.<br>Precyzyjność językowa - gramatyka i słownictwo: 3 pkt.<br>Jasność przekazu: 3 pkt.<br>Układ graficzny i organizacja treści: 1 pkt.'",
+        "answers": [],
+        "corr": []
+      },
+
+      {
+        "section": "listening",
+        "skill": "Listening",
+        "question": "<b>LISTENING</b><br />Tick the five sentences that are correct.",
+        "content": "track_2_02.mp3",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "Tamsin is from New Zealand.'",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "False" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "She is on business.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "True" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "She is a clothes designer.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "True" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "She comes to London once a year.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "False" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "She is meeting some people this afternoon.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "True" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "She is staying in London for a month.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "False" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "She is flying to Ireland for a holiday.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "True" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "She is going to see her grandmother.",
+            "subanswers": [ "True", "False" ],
+            "subcorr": [ "True" ]
+          }
+        ]
+      },
+      {
+        "section": "listening",
+        "skill": "Listening",
+        "question": "Listen to five conversations. Match the conversations with what the speakers are planning to do (A–E).",
+        "content": "track_2_02.mp3",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "Conversation 1",
+            "subanswers": [ "to go to a conference", "to cook dinner", "to go to the airport", "to teach English", "to go cycling" ],
+            "subcorr": [ "to go to the airport" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Conversation 2",
+            "subanswers": [ "to go to a conference", "to cook dinner", "to go to the airport", "to teach English", "to go cycling" ],
+            "subcorr": [ "to go to a conference" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Conversation 3",
+            "subanswers": [ "to go to a conference", "to cook dinner", "to go to the airport", "to teach English", "to go cycling" ],
+            "subcorr": [ "to teach English" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Conversation 4",
+            "subanswers": [ "to go to a conference", "to cook dinner", "to go to the airport", "to teach English", "to go cycling" ],
+            "subcorr": [ "to go cycling" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Conversation 5",
+            "subanswers": [ "to go to a conference", "to cook dinner", "to go to the airport", "to teach English", "to go cycling" ],
+            "subcorr": [ "to cook dinner" ]
+          }
+        ]
+      }
+    ]
+
+  }
+
+}
+
+
+

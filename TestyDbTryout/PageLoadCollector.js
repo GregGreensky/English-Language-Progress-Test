@@ -1,0 +1,1 @@
+﻿alert("Page Load Collector");

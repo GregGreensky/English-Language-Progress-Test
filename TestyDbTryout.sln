@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestyDbTryout", "TestyDbTryout\TestyDbTryout.csproj", "{A64B990E-C945-4F3A-8390-807B94B4E190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestyDbTryout.Tests", "TestyDbTryout.Tests\TestyDbTryout.Tests.csproj", "{806AA898-0753-4893-8759-CA4CDE294241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60F2D2F9-2B26-4F23-8BFD-B4BD7C2A66D4}"
+	ProjectSection(SolutionItems) = preProject
+		.a11yrc = .a11yrc
+		source_test.js = source_test.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A64B990E-C945-4F3A-8390-807B94B4E190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64B990E-C945-4F3A-8390-807B94B4E190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64B990E-C945-4F3A-8390-807B94B4E190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64B990E-C945-4F3A-8390-807B94B4E190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806AA898-0753-4893-8759-CA4CDE294241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806AA898-0753-4893-8759-CA4CDE294241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806AA898-0753-4893-8759-CA4CDE294241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806AA898-0753-4893-8759-CA4CDE294241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {090384EF-977E-4258-A66E-B6F9A03D453A}
+	EndGlobalSection
+EndGlobal

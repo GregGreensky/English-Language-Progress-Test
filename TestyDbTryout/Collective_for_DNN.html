@@ -1,0 +1,122 @@
+﻿<!-- do nagłówka ustawień modułu HTML w DNN początek -->
+<!-- Font Awesome -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- Bootstrap core CSS -->
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">-->
+<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+<!-- Material Design Bootstrap -->
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">-->
+<!--<link href="css/mdb.min.css" rel="stylesheet">-->
+
+
+
+<link href="../../../test_styler.css" rel="stylesheet" />
+
+<!-- do nagłówka ustawień modułu HTML w DNN koniec -->
+<!-- do treści modułu HTML w DNN początek -->
+
+<div class="loadingwheel-container"> <img id="wheeler" src="/images/loading.gif" alt="loader" height="50" width="50" /> </div>
+
+
+
+<div class="table-wrapper">
+
+    <div class="select_wrapper no-show">
+        <select class="browser-default custom-select">
+            <option value="0" selected disabled>Il. testów na stronie</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+        </select>
+
+    </div>
+
+
+    <div class="searcher_wrapper no-show">
+        <input type="text" name="searcher" id="searcher" class="form-control" spellcheck="false" placeholder="Szukaj w tabeli" style="width:auto;" value="">
+        <div class="ex">&times;</div>
+    </div>
+    <div class="table_inner_wrapper">
+        <table id="data_collector" class="table table-sm table-striped table-responsive-md btn-table table-hover">
+
+            <thead>
+                <tr>
+
+                    <th style="width:20ch;" class="nums" id="ordinals">
+                        Nr<br />testu<i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title="Numer testu w bazie danych"></i><div class="i-container">
+                            <i class="fas fa-angle-up" style="color:green" data-toggle="tooltip" data-placement="right" title="Sortuj rosnąco"></i><i class="fas fa-angle-down" data-toggle="tooltip" data-placement="right" title="Sortuj malejąco"></i>
+                        </div>
+                    </th>
+                    <th style="width:20ch;" class="lits">
+                        Rodzaj<br />testu<div class="i-container">
+                            <i class="fas fa-angle-up" data-toggle="tooltip" data-placement="right" title="Sortuj rosnąco"></i><i class="fas fa-angle-down" data-toggle="tooltip" data-placement="right" title="Sortuj malejąco"></i>
+                        </div>
+                    </th>
+                    <th style="width:20ch;" class="dates">
+                        Data<br />testu<div class="i-container">
+                            <i class="fas fa-angle-up" data-toggle="tooltip" data-placement="right" title="Sortuj rosnąco"></i><i class="fas fa-angle-down" data-toggle="tooltip" data-placement="right" title="Sortuj malejąco"></i>
+                        </div>
+                    </th>
+                    <th style="width:25ch;" class="lits">
+                        Ocena<br />całkowita<div class="i-container">
+                            <i class="fas fa-angle-up" data-toggle="tooltip" data-placement="right" title="Sortuj rosnąco"></i><i class="fas fa-angle-down" data-toggle="tooltip" data-placement="right" title="Sortuj malejąco"></i>
+                        </div>
+                    </th>
+                    <th style="width:25ch; cursor:default;">Szczegóły</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <nav aria-label="Test done results pagination" class="no-show" id="pager">
+        <ul class="pagination pg-blue">
+            <li class="page-item prev disabled">
+                <a class="page-link" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item active firstt"><a class="page-link">1</a></li>
+            <li class="page-item next disabled">
+                <a class="page-link" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="testNumberWrapper">Ilość testów: <span style="width:3ch;" class="highlight" id="testNumber">&nbsp;&nbsp;&nbsp;</span>.</div>
+</div>
+
+
+
+<div id="checker"></div>
+<div id="demo"></div>
+
+<div id="snackbar">Ilość wykonanych przez Ciebie testów: <span id="testCount" class="highlight"></span>.</div>
+
+<input type="hidden" id="userName" name="userName" value="[User:FirstName] [User:LastName]" />
+<input type="hidden" id="userMail" name="userMail" value="[User:Email]" />
+<!-- do treści modułu HTML w DNN koniec -->
+<!-- do stopki ustawień modułu HTML w DNN początek -->
+<!-- JQuery -->
+<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<!--<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>-->
+<!-- JQuery UI -->
+<!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>-->
+<!--<script src="js/jquery-ui.min.js"></script>-->
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!--<script type="text/javascript" src="js/popper.min.js"></script>-->
+<!--<script src="html2canvas.js"></script>-->
+<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?cdv=94" type="text/javascript"></script>-->
+<!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+<!-- Bootstrap core JavaScript -->
+<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+<!-- MDB core JavaScript -->
+<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>-->
+<!--<script type="text/javascript" src="js/mdb.min.js"></script>-->
+
+<script src="../../../data_collector.js"></script>
+<!-- do stopki ustawień modułu HTML w DNN koniec -->

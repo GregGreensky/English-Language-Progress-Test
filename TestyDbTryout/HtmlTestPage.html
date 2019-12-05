@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">-->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="https://testy.engraft.pl/test_styler.css" rel="stylesheet" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta X-Content-Type-Options="nosniff" /> -->
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta content="text/javascript" http-equiv="Content-Script-Type">
+    <meta content="text/css" http-equiv="Content-Style-Type">
+
+
+    <style>
+        #usr_mail,
+        #usr_name {
+            color: orange;
+            font-weight: bold;
+        }
+        
+        b {
+            font-weight: bold;
+        }
+    </style>
+    <title>Test</title>
+</head>
+
+<body style="width:80%; font-family:Arial,sans-serif; margin:30px auto !important;">
+
+    <div class="loadingwheel-container"> <img id="wheeler" src="loading.gif" alt="loader" height="50" width="50" /> </div>
+
+    <form method="post" action="/Ajax-Test-Page" id="Form" enctype="multipart/form-data">
+
+        <div id="checker" style="visibility:hidden">Checker</div>
+        <div class="btn-wrapper" style="visibility:hidden" data-toggle="modal" data-target="#exampleModal">
+            <button class="cleaner btn btn-primary" data-toggle="tooltip" data-toggler="tooltip" data-placement="top" id="cleaner" data-html="true" onclick="onCleaning()" type="button" title="&lt;span id=&#39;usr_name&#39; class=&#39;classUserName&#39;&gt; [User:DisplayName]&lt;/span&gt;, kliknięcie tego przycisku spowoduje zakończenie testu, obliczenie wyników i wysłanie ich na Twój adres &lt;span id=&#39;usr_mail&#39;&gt;[User:Email]&lt;/span&gt;">
+                Zakończ test
+            </button>
+        </div>
+        <div id="demo" style="visibility:hidden;filter:blur(5px);"></div>
+        <div id="postRevealInfo">
+            Szczegółowe zestawienie punktacji będzie dostępne w tym miejscu po tym jak wszyscy użytkownicy grupy &quot;[Tab:TabName]&quot; wykonają ten test (online lub w formie papierowej) oraz po omówieniu zadań i wyników testu na zajęciach.
+            <div style="margin-top: 20px;">Grzegorz Zieliński, lektor.</div>
+        </div>
+        <div id="fixer" style="visibility:hidden;display:none;">
+            Czas do zakończenia testu:
+            <p class="center" id="time-show">
+                <div>: :</div>
+            </p>
+        </div>
+        <!-- początek początku modal -->
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade right" data-backdrop="static" id="exampleModal" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-full-height modal-right modal-lg modal-notify modal-info" role="document" id="exampleModalSub">
+                <div class="modal-content" id="summary">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Wyniki testu</h5>
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                            <span aria-hidden="true">x</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="intro">Tu będą informacje wstępne.</div>
+                        <div class="summary" id="package">
+                            <p>
+                                <span id="intro_user_name" class='classUserName'>[User:DisplayName]</span>, poniżej znajdują się wyniki cząstkowe i rezultat całościowy testu z języka angielskiego, który rozwiązywałeś (-aś) w dn.
+                                <span id='testDate'></span> od godz.:
+                                <span id='testTime'></span>
+                            </p>
+                            <div>
+                                <ul>
+                                    <li id="listSummary">
+                                        rozumienie ze słuchu:
+                                        <span id="lisPercent">0</span>%, ocena:
+                                        <span id="lisGrade">2.0</span>.
+                                    </li>
+                                    <li id="vocabSummary">
+                                        znajomość słownictwa:
+                                        <span id="vocPercent">0</span>%, ocena:
+                                        <span id="vocGrade">2.0</span>.
+                                    </li>
+                                    <li id="grammSummary">
+                                        znajomość gramatyki:
+                                        <span id="gramPercent">0</span>%, ocena:
+                                        <span id="gramGrade">2.0</span>.
+                                    </li>
+                                    <li id="readSummary">
+                                        rozumienie tekstu pisanego:
+                                        <span id="readPercent">0</span>%, ocena:
+                                        <span id="readGrade">2.0</span>.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="closingRemarks">
+                                Całościowy wynik testu (wyliczony na postawie stosunku
+                                <strong>
+                                    <u>uzyskanych</u>
+                                </strong> punktów (
+                                <span id="pointsGained">0</span>) do maksymalnej ilości punktów
+                                <strong>
+                                    <u>możliwych</u>
+                                </strong> do uzyskania (
+                                <span id="pointsMax"></span>)):
+                                <span id="totPercent">0</span>%, ocena:
+                                <span id="totGrade">2.0</span>.
+                            </div>
+                        </div>
+                        <div class="results" id="results1"></div>
+                        <div class="criteria" id="kryteria">
+                            <div id="kryteriaIntro"></div>
+                            <table class="table table-striped">
+                                Kryteria ocen:
+                                <thead>
+                                    <tr>
+                                        <th>Zakres procentowy</th>
+                                        <th>Ocena</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>55-62%</td>
+                                        <td>3.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>63-70%</td>
+                                        <td>3.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>71-79%</td>
+                                        <td>4.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>80-86%</td>
+                                        <td>4.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>87-95%</td>
+                                        <td>5.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>96-100%</td>
+                                        <td>6.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- koniec początku modal -->
+                    <div class="modal-footer">
+                        <button id="demodaler" class="btn btn-primary" data-dismiss="modal" type="button">Zamknij</button>
+                        <!--<button class="btn btn-primary" onclick="window.print();" type="button">Zapisz</button>-->
+                    </div>
+                    <!-- modal footer -->
+                </div>
+                <!-- początek konca modal -->
+            </div>
+        </div>
+        <!-- koniec konca modal -->
+
+        <input type="hidden" id="testId" name="testId" value="" />
+        <input type="hidden" id="userName" name="userName" value="[User:FirstName] [User:LastName]" />
+        <input type="hidden" id="testType" name="testType" value="" />
+        <input type="hidden" id="group" name="group" value="" />
+        <input type="hidden" id="level" name="level" value="" />
+        <input type="hidden" id="totalTestTime" name="totalTestTime" value="" />
+        <input type="hidden" id="userMail" name="userMail" value="[User:Email]" />
+        <input type="hidden" id="revealDate" name="revealDate" value="" />
+    </form>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="source_test.js"></script>
+    <script src="test_skrypt.js"></script>
+    <!--<script src="html2canvas.js"></script>-->
+    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?cdv=94" type="text/javascript"></script>-->
+    <!-- <script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+
+    <!-- Bootstrap tooltips -->
+    <!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>-->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>-->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript">
+        //alert("Muka");
+        //function loadJsonData() {
+        //    //var date = new Date();
+        //    //var datee = date.toLocaleDateString();
+        //    var postdata = JSON.stringify(
+        //        {
+        //            "UserName": document.getElementById("usr_name").value,
+        //            "Duration": Duration
+        //        });
+        //    try {
+        //        $.ajax({
+        //            type: "POST",
+        //            url: "DatabaseHandler.ashx",
+        //            cache: false,
+        //            contentType: "application/json; charset=utf-8",
+        //            data: postdata,
+        //            dataType: "html",
+        //            success: getSuccess,
+        //            error: getFail
+        //        });
+        //    } catch (e) {
+        //        alert(e);
+        //    }
+        //    function getSuccess(data, textStatus, jqXHR) {
+        //        alert(data.Response + " - sukces");
+        //    };
+        //    function getFail(jqXHR, textStatus, errorThrown) {
+        //        alert(jqXHR.status + " - failer");
+        //    };
+        //};
+
+        //function loader() {
+        //     $('#checker').load("DatabaseHandler.ashx?UserName=Greg");
+        // };
+    </script>
+    <!--<script type="text/javascript">
+        function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "test_skrypt.js";
+            document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+    </script>-->
+</body>
+
+</html>

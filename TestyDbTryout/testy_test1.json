@@ -1,0 +1,210 @@
+﻿{
+  "test": {
+    "TestID": "FESTO_wtorki_18/12/2018_chapters_3A-3C",
+    "TestType": "homework",
+    "Time": "00:54:15",
+    "RevealDetailedResultsDateTime": "11/04/2018",
+    "Group": "Festo wtorki",
+    "Level": "Pre-Intermediate (A2)",
+    "random": false,
+    "sections": false,
+    "questions": [
+      {
+        "section": "listening",
+        "skill": "Listening",
+        "question": "W tym zadaniu zapoznaj się <u>najpierw z pytaniami</u>, a kiedy będziesz gotowy kliknij przycisk odtwarzania.<br><span style='font-weight:normal;'> W przypadku dłuższych nagrań rozważ sporządzanie notatek podczas słuchania.<br> Kliknięcie tego przycisku spowoduje dwukrotne odtworzenie nagrania.<br> <b>Uwaga:</b> Nie będziesz mieć możliwości zatrzymania, wyszukania fragmentu nagrania ani jego odtworzenia więcej niż dwa razy. <br><br>Po dwukrotnym wysłuchaniu nagrania odpowiedz na pytania.</span>",
+        "content": "track_2_02.mp3",
+        "criteria": "You'll get one point for each question answered correctly",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "Who of the Beatles was the oldest?",
+            "subanswers": [ "Paul", "Ringo", "George", "John" ],
+            "subcorr": [ "Ringo" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "Which of the Beatles used to go to Quarry School?",
+            "subanswers": [ "Ringo", "Paul", "John", "George" ],
+            "subcorr": [ "Paul", "John" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Who first started growing a moustache?",
+            "subanswers": [ "Paul", "Ringo", "George", "John" ],
+            "subcorr": [ "Paul" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "Who of the Beatles used to live in the USA?",
+            "subanswers": [ "Ringo", "Paul", "John", "George" ],
+            "subcorr": [ "Ringo", "John" ]
+          }
+        ]
+      },
+
+      {
+        "section": "grammar",
+        "skill": "Vocabulary",
+        "option": "radio",
+        "question": "How many days are there in <u>a week</u>?",
+        "answers": [ "4", "5", "6", "7" ],
+        "corr": [ "7" ]
+      },
+      {
+        "section": "vocabulary",
+        "skill": "Vocabulary",
+        "option": "check",
+        "question": "What can be the number of days in February?",
+        "answers": [ "27", "28", "29", "30", "31" ],
+        "corr": [ "28", "29" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Vocabulary",
+        "option": "radio",
+        "question": "Who from the Bridges family played in 'Aeroplane' movie?",
+        "answers": [ "Beau", "Jeff", "Lloyd" ],
+        "corr": [ "Lloyd" ]
+      },
+      {
+        "section": "vocabulary",
+        "skill": "Vocabulary",
+        "option": "check",
+        "question": "What colors do you like?",
+        "answers": [ "blue", "green", "yellow", "black", "white", "orange", "brown", "pink", "red", "blue alice", "navy", "beige", "grey" ],
+        "corr": [ "green", "yellow" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Vocabulary",
+        "option": "check",
+        "question": "Which countries are in the UK?",
+        "answers": [ "Wales", "Scotland", "England", "Northern Ireland", "Ireland" ],
+        "corr": [ "Wales", "Scotland", "England", "Northern Ireland" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "option": "drag",
+        "question": "Przeciągnij słowa z szarego pola i upuść je na białe w odpowiedniej kolejności (ich kolejność możesz zmieniać w każdej chwili), aby otrzymać gramatycznie poprawne zdanie.",
+        "answers": [ "here", "?", "Is", "from", "he" ],
+        "corr": [ "Is he from here?" ]
+      },
+      {
+        "section": "grammar",
+        "skill": "Grammar",
+        "option": "drag",
+        "question": "Przeciągnij słowa z szarego pola i upuść je na białe w odpowiedniej kolejności (ich kolejność możesz zmieniać w każdej chwili), aby otrzymać gramatycznie poprawne zdanie.",
+        "answers": [ "near", "an", "a", "We", "shop", "we", "man", "old", "walking", "dying", ".", "were", "when", "saw", "," ],
+        "corr": [ "We were walking near a shop when we saw an old man dying.", "We saw an old man dying, when we were walking near a shop." ]
+      },
+
+      {
+        "section": "listening",
+        "skill": "Listening",
+        "question": "W tym zadaniu zapoznaj się <u>najpierw z pytaniami</u>, a kiedy będziesz gotowy kliknij przycisk odtwarzania.<br><span style='font-weight:normal;'> W przypadku dłuższych nagrań rozważ sporządzanie notatek podczas słuchania.<br> Kliknięcie tego przycisku spowoduje dwukrotne odtworzenie nagrania.<br><b>Uwaga:</b> Nie będziesz mieć możliwości zatrzymania, wyszukania fragmentu nagrania ani jego odtworzenia więcej niż dwa razy.<br><br>Po dwukrotnym wysłuchaniu nagrania odpowiedz na pytania.</span>",
+        "criteria": "There's no critieria.",
+        "content": "track_1_28.mp3",
+        "subquestions": [
+          {
+            "option": "check",
+            "subquestion": "Who of the Beatles was married before the bands break-up?",
+            "subanswers": [ "Paul", "Ringo", "George", "John" ],
+            "subcorr": [ "Paul", "John" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Which guitar makes did the Beatles <u>not use</u> to play?",
+            "subanswers": [ "Epiphone", "Gibson", "Stratocaster", "Rickenbacker" ],
+            "subcorr": [ "Stratocaster" ]
+          }
+        ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Vocabulary",
+        "criteria": "'Gapping'",
+        "placeholder": "Jeden wyraz",
+        "question": "W wolne pola wpisz brakujące pojedyncze wyrazy (w każdym polu tylko jeden wyraz), tak aby całość utworzyła poprawną logicznie i gramatycznie treść.<br>Pamiętaj: <u>wielkość liter</u> ma znaczenie.",
+        "text": "He *gap* to be a very merry person when he was young. Then something weird happened *gap* changed his life. He saw *gap* UFO. Afterwards he *gap* obsessed with ET life.",
+        "answers": [ "used", "that/which", "a", "became/got/was" ]
+      },
+      {
+        "section": "gap-filling",
+        "skill": "Grammar",
+        "criteria": "Next' gapping'",
+        "placeholder": "One word",
+        "question": "W wolne pola wpisz brakujące pojedyncze wyrazy (w każdym polu tylko jeden wyraz), tak aby całość utworzyła poprawną logicznie i gramatycznie treść.<br>Pamiętaj: <u>wielkość liter</u> ma znaczenie.",
+        "text": "At *gap* time before *gap* he *gap* more happy than then. ",
+        "answers": [ "no/none", "has", "been" ]
+      },
+      {
+        "section": "reading",
+        "skill": "Reading",
+        "criteria": "Present Simple",
+        "question": "Przeczytaj tekst a następnie odpowiedz na pytania.",
+        "content": "Hi I am an English girl with a lovely Polish friend... he is funny, intelligent, amazing and I have a small crush but cant tell if he likes me... he smiles a lot when were alone and waits for the bus with me to make sure I get home. He gives me his umbrella so I wont get wet and shares little things with me and encourages me to learn more and push myself harder at yoga but I am not sure if its just Polish politeness or more ...",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "Does she like him?",
+            "subanswers": [ "Yes", "No" ],
+            "subcorr": [ "Yes" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "What are the symptoms he likes her?",
+            "subanswers": [ "he smiles", "encourages her at yoga classes", "he shares an umbrella with her", "he accompanies her to her home" ],
+            "subcorr": [ "he smiles", "encourages her at yoga classes", "he shares an umbrella with her" ]
+          }
+        ]
+      },
+      {
+        "section": "reading",
+        "skill": "Reading",
+        "question": "Przeczytaj tekst a następnie odpowiedz na pytania.",
+        "content": "I'm looking to buy local brand television 32inch and I dont want to spend 800-1000zl for TV from Samsung or any other well known brand. Im looking around 500-600zl.<br>Thank you",
+        "subquestions": [
+          {
+            "option": "check",
+            "subquestion": "How much can he spend for the TV?",
+            "subanswers": [ "510 zl", "590 zl", "610 zl" ],
+            "subcorr": [ "510 zl", "590 zl" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Does he like the Samsung brand?",
+            "subanswers": [ "Yes", "No" ],
+            "subcorr": [ "No" ]
+          }
+        ]
+      },
+      {
+        "section": "writing",
+        "skill": "Writing",
+        "word-count-min": "150",
+        "word-count-max": "200",
+        "question": "Napisz do czego Ci potrzebna znajomość j. angielskiego. Napisz 150-200 słów.",
+        "criteria": "Kryteria' ocen:<br/>Wszystkie wymagane informacje: 3 pkt.<br/>Precyzyjność językowa' - gramatyka i słownictwo: 3 pkt.<br/>Jasność przekazu: 3 pkt.<br/>Układ graficzny i organizacja treści: 1 pkt.",
+        "answers": [],
+        "corr": []
+      },
+      {
+        "section": "writing",
+        "skill": "Writing",
+        "word-count-min": "150",
+        "word-count-max": "200",
+        "question": "Napisz jak spędziłeś (-aś) Święta. Długość pracy: 250 słów.",
+        "criteria": "<u>Kryteria ocen :</u><br/>Wszystkie wymagane informacje: 3 pkt.<br/>Precyzyjność językowa' - gramatyka i słownictwo: 3 pkt.<br/>Jasność przekazu: 3 pkt.<br/>Układ graficzny i organizacja treści: 1 pkt.",
+        "answers": [],
+        "corr": []
+      }
+    ]
+  }
+}

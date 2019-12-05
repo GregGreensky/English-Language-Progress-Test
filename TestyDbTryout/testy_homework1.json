@@ -1,0 +1,102 @@
+{
+  "test": {
+    "TestID": "ASG AP srody unit 6",
+    "TestType": "homework",
+    "Time": "00:02:10",
+    "RevealDetailedResultsDateTime": "11/04/2018",
+    "Group": "ASG AP",
+    "Level": "Pre-Intermediate (A2)",
+    "random": false,
+    "sections": false,
+    "questions": [
+      {
+        "section": "Reading",
+        "skill": "Reading",
+        "question": "Przeczytaj tekst a następnie odpowiedz na pytania.",
+        "content": "I'm looking to buy local brand television 32inch and I don't want to spend 800-1000zl for TV from Samsung or any other well known brand. I'm looking around 500-600zl.<br>Thank you",
+        "subquestions": [
+          {
+            "option": "check",
+            "subquestion": "How much can he spend for the TV?",
+            "subanswers": [ "510 zl", "590 zl", "610 zl" ],
+            "subcorr": [ "510 zl", "590 zl" ]
+          },
+
+          {
+            "option": "radio",
+            "subquestion": "Does he like the Samsung brand?",
+            "subanswers": [ "Yes", "No" ],
+            "subcorr": [ "No" ]
+          }
+        ]
+      },
+
+      {
+        "section": "reading",
+        "skill": "Reading",
+        "question": "Przeczytaj tekst a następnie odpowiedz na pytania.",
+        "content": "Hi I am an English girl with a lovely Polish friend... he is funny, intelligent, amazing and I have a small crush but cannot tell if he likes me... he smiles a lot when we're alone and waits for the bus with me to make sure I get home. He gives me his umbrella so I will not get wet and shares little things with me and encourages me to learn more and push myself harder at yoga but I am not sure if it is just Polish politeness or more ...",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "What nationality is she?",
+            "subanswers": [ "English", "Polish" ],
+            "subcorr": [ "English" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "Choose adjectives she writes about him:",
+            "subanswers": [ "wet", "lovely", "funny", "intelligent", "politeness", "amazing" ],
+            "subcorr": [ "wet", "lovely", "funny", "intelligent", "amazing" ]
+          }
+        ]
+      },
+      {
+        "section": "Writing",
+        "skill": "Writing",
+        "word-count-min": "150",
+        "word-count-max": "200",
+        "question": "Napisz jak spędziłeś (-aś) Święta. Długość pracy: 250 słów.",
+        "criteria": "Wszystkie wymagane informacje: 3 pkt. Precyzyjność językowa - gramatyka i słownictwo: 3 pkt. Jasność przekazu: 3 pkt. Układ graficzny i organizacja treści: 1 pkt.",
+        "answers": [],
+        "corr": []
+      },
+      {
+        "section": "listening",
+        "skill": "Listening",
+        "question": "W tym zadaniu zapoznaj się <u>najpierw z pytaniami</u>, a kiedy będziesz gotowy kliknij przycisk odtwarzania. <br><span style='font-weight:normal;'> W przypadku dłuższych nagrań rozważ sporządzanie notatek podczas słuchania.<br> Kliknięcie tego przycisku spowoduje dwukrotne odtworzenie nagrania.<br> <b>Uwaga:</b> Nie będziesz mieć możliwości zatrzymania, wyszukania fragmentu nagrania ani jego odtworzenia więcej niż dwa razy.<br><br>Po dwukrotnym wysłuchaniu nagrania odpowiedz na pytania.</span>",
+        "content": "track_2_02.mp3",
+        "subquestions": [
+          {
+            "option": "radio",
+            "subquestion": "Who of the Beatles was the oldest?",
+            "subanswers": [ "Paul", "Ringo", "George", "John" ],
+            "subcorr": [ "Ringo" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "Which of the Beatles used to go to Quarry School?",
+            "subanswers": [ "Ringo", "Paul", "John", "George" ],
+            "subcorr": [ "Paul", "John" ]
+          },
+          {
+            "option": "radio",
+            "subquestion": "Who first started growing a moustache?",
+            "subanswers": [ "Paul", "Ringo", "George", "John" ],
+            "subcorr": [ "Paul" ]
+          },
+
+          {
+            "option": "check",
+            "subquestion": "Who of the Beatles used to live in the USA?",
+            "subanswers": [ "Ringo", "Paul", "John", "George" ],
+            "subcorr": [ "Ringo", "John" ]
+          }
+        ]
+      }
+
+    ]
+  }
+}

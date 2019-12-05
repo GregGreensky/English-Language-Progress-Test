@@ -144,6 +144,7 @@
     <Content Include="css\style.min.css" />
     <Content Include="data_collector.js" />
     <Content Include="desktopmodules\EngraftService.asmx" />
+    <Content Include="EngraftDatabaseHandler.ashx" />
     <Content Include="HtmlTestPage.html" />
     <Content Include="js\addons\datatables-select.js" />
     <Content Include="js\addons\datatables-select.min.js" />
@@ -250,7 +251,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EngraftDatabaseHandler.ashx" />
     <Content Include="EngraftMailHandler.ashx" />
     <Content Include="EngraftDbInsert.ashx" />
     <None Include="packages.config" />

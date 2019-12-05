@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+#My specific fie types
+cs
+web.config
+*.cs
+.cs
+*.Web.config

@@ -340,8 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 #My specific fie types
-cs
-web.config
-*.cs
-.cs
-*.Web.config
+

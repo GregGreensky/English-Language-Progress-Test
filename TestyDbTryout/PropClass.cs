@@ -45,6 +45,8 @@ namespace TestyDbTryout
         public string TotalPerc { get; set; }
         public object WritingGrade { get; set; }
         public object WritingPerc { get; set; }
+        public string TestID { get; set; }
+
     }
 
 

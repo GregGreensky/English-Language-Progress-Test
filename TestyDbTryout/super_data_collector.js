@@ -344,7 +344,7 @@ $(document).ready(function() {
                                     var testNumberIndexLast = sessionStorageString.lastIndexOf("kon-test:" + buttonIdentifier + "||");
                                     //console.log("testNumberIndexFirst:" + testNumberIndexFirst + "\ntestNumberIndexLast:" + testNumberIndexLast);
                                     var testAnswers = sessionStorageString.substring(testNumberIndexFirst + testNumberIndexLength, testNumberIndexLast);
-                                    testAnswers = testAnswers.replace(/&#92;&#39;/g, "'").replace(/&#34;/g, "");
+                                    testAnswers = testAnswers.replace(/&#92;&#39;/g, "'").replace(/&#34;/g, "'");
 
                                     //reveal date getter
                                     var dataTestItem = $(this).attr("data-item");

@@ -324,7 +324,7 @@ namespace TestyDbTryout
                     {
                         using (SqlCommand cmd = new SqlCommand("UPDATE TestsDone SET EndTime=@EndTime, Finished = @Finished, AnswersForStudent=@answersforstudent, AnswersForTutor=@answersfortutor, ListeningGrade=@listeninggrade, ListeningPerc=@listeningperc, VocabularyGrade=@vocabularygrade, VocabularyPerc=@vocabularyperc, GrammarGrade=@grammargrade, GrammarPerc=@grammarperc, ReadingGrade=@readinggrade, ReadingPerc=@readingperc, TotalGrade=@totalgrade, TotalPerc=@totalperc, Remarks=@remarks WHERE UserName = @UserName AND TestID = @TestID"))
                         {
-                            cmd.Parameters.AddWithValue("@TestID", dbInsertion.Id);
+                            cmd.Parameters.AddWithValue("@TestID", dbInsertion.TestID);
                             cmd.Parameters.AddWithValue("@UserName", dbInsertion.UserName);
                             cmd.Parameters.AddWithValue("@EndTime", dbInsertion.EndTime);
                             cmd.Parameters.AddWithValue("@finished", dbInsertion.Finished);

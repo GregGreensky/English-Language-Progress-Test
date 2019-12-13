@@ -66,7 +66,7 @@ namespace TestyDbTryout
 
             /*string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testy;User ID=**********;Password=************;";*/ //ciąg połączeniowy do bazy danych - tu do lokalnej. działa na Laptop-G
 
-            string connect = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string connect = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=******Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
 
             string query = "SELECT TestID, UserName, Date, StartTime, EndTime, Duration, Started, Finished, Remarks, AnswersForStudent FROM TestsDone";
 

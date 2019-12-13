@@ -25,7 +25,7 @@ namespace TestyDbTryout
 
         public void ChangeStoppageTime(string TestID, string StoppageTime, string UserName)
         {
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection con = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("UPDATE TestsDone SET StoppageTime = @StoppageTime WHERE UserName = @UserName AND TestID = @TestID"))
@@ -58,7 +58,7 @@ namespace TestyDbTryout
             context.Response.ContentType = "text/html;charset=UTF-8";
             context.Response.CacheControl = "private";
 
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection conn = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT TestID, UserName, StoppageTime, Finished FROM TestsDone WHERE UserName = @UserName AND TestID = @TestID"))
@@ -147,7 +147,7 @@ namespace TestyDbTryout
             context.Response.ContentType = "text/html;charset=UTF-8";
             context.Response.CacheControl = "private";
 
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection conn = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT TestID, UserName, Date, StoppageTime, StartTime, AudiosStarted, EndTime, Duration, Started, Finished, Remarks, AnswersForStudent FROM TestsDone WHERE UserName = @UserName AND TestID = @TestID"))
@@ -260,7 +260,7 @@ namespace TestyDbTryout
 
                 if (dbInsertion != null)
                 {
-                 SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
+                 SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
 
                     SqlCommand cmd = new SqlCommand()
 
@@ -319,7 +319,7 @@ namespace TestyDbTryout
                 if (dbInsertion != null)
                 {
 
-                    string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+                    string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
                     using (SqlConnection con = new SqlConnection(constr))
                     {
                         using (SqlCommand cmd = new SqlCommand("UPDATE TestsDone SET EndTime=@EndTime, Finished = @Finished, AnswersForStudent=@answersforstudent, AnswersForTutor=@answersfortutor, ListeningGrade=@listeninggrade, ListeningPerc=@listeningperc, VocabularyGrade=@vocabularygrade, VocabularyPerc=@vocabularyperc, GrammarGrade=@grammargrade, GrammarPerc=@grammarperc, ReadingGrade=@readinggrade, ReadingPerc=@readingperc, TotalGrade=@totalgrade, TotalPerc=@totalperc, Remarks=@remarks WHERE UserName = @UserName AND TestID = @TestID"))
@@ -399,7 +399,7 @@ namespace TestyDbTryout
                     SmtpClient smtp = new SmtpClient("mail.engraft.pl", 587)
 
                     {
-                        Credentials = new System.Net.NetworkCredential("admin", "Greansky1965"),
+                        Credentials = new System.Net.NetworkCredential("admin", "**********"),
                         DeliveryMethod = SmtpDeliveryMethod.Network,
                         DeliveryFormat = SmtpDeliveryFormat.International
 
@@ -454,7 +454,7 @@ namespace TestyDbTryout
             System.Web.Script.Serialization.JavaScriptSerializer JsonSerializer =
         new System.Web.Script.Serialization.JavaScriptSerializer();
 
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection conn = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT [Id], [TestType], [UserName], [RevealDate], [EndTime], [Finished], [AnswersForStudent], [ListeningGrade], [ListeningPerc], [VocabularyGrade], [VocabularyPerc], [GrammarGrade], [GrammarPerc], [ReadingGrade], [ReadingPerc], [WritingGrade], [WritingPerc], [TotalGrade], [TotalPerc], [Remarks] FROM TestsDone WHERE [UserName] = @UserName"))
@@ -587,7 +587,7 @@ namespace TestyDbTryout
             string ColumnName = context.Request["ColumnName"];
             string ColumnValue = context.Request["ColumnValue"];
 
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection con = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("UPDATE TestsDone SET " + ColumnName + " = CONCAT(" + ColumnName + ",'" + @ColumnValue + "', ' ') WHERE UserName = @UserName AND TestID = @TestID"))
@@ -628,7 +628,7 @@ namespace TestyDbTryout
             System.Web.Script.Serialization.JavaScriptSerializer JsonSerializer =
         new System.Web.Script.Serialization.JavaScriptSerializer();
 
-            string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+            string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
             using (SqlConnection conn = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT DISTINCT [UserName] FROM TestsDone WHERE [Finished] = 'True' ORDER BY [UserName]"))
@@ -701,7 +701,7 @@ namespace TestyDbTryout
                 if (dbInsertion != null)
                 {
 
-                    string constr = "Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
+                    string constr = "Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True";
                     using (SqlConnection con = new SqlConnection(constr))
                     {
                         using (SqlCommand cmd = new SqlCommand("UPDATE TestsDone SET AnswersForStudent=@answersforstudent,  ListeningGrade=@listeninggrade, ListeningPerc=@listeningperc, VocabularyGrade=@vocabularygrade, VocabularyPerc=@vocabularyperc, GrammarGrade=@grammargrade, GrammarPerc=@grammarperc, ReadingGrade=@readinggrade, ReadingPerc=@readingperc, WritingGrade=@writinggrade, WritingPerc=@writingperc, TotalGrade=@totalgrade, TotalPerc=@totalperc, Remarks=@remarks WHERE Id = @Id"))

@@ -28,10 +28,10 @@ namespace TestyDbTryout
 
                     string from = "test-master@engraft.pl";
                     string to = email.To; /*to będzie na testy.engraft.pl*/
-                    //string to = "bff@poczta.onet.pl";
+
                     string body = email.Body;
                     string subject = email.Subject + DateTime.Now.Date.ToShortDateString() + " r. godz. " + DateTime.Now.ToShortTimeString();
-                    //string bcc = "greensky@gazeta.pl, greansky@gmail.com";
+                   
 
                     //You can write here the code to send Email, see ,the Class System.Net.Mail.MailMessage on MSDN
 
@@ -45,10 +45,8 @@ namespace TestyDbTryout
 
                     };
 
-                    MailAddress bcc = new MailAddress("grzegorz.zielinski@engraft.pl");
-                    //MailAddress bcc2 = new MailAddress("greensky@gazeta.pl");
-                    //MailAddress bcc3 = new MailAddress("greansky@gmail.com");
-                    //MailAddress bcc4 = new MailAddress("greansky@tlen.pl");
+                    MailAddress bcc = new MailAddress("***************@************");
+
 
 
                     MailMessage mail = new MailMessage(

@@ -62,7 +62,7 @@ namespace TestyDbTryout
 
             //string connect = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|TestyDb.mdf;Database=TestyDb;Integrated Security=True";
 
-            //string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testery;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False; Encrypt=False; TrustServerCertificate=True;User ID=Gshegoshek;Password=Greansky1965";
+            //string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testery;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False; Encrypt=False; TrustServerCertificate=True;User ID=**********;Password=**********";
 
             /*string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testy;User ID=**********;Password=************;";*/ //ciąg połączeniowy do bazy danych - tu do lokalnej. działa na Laptop-G
 

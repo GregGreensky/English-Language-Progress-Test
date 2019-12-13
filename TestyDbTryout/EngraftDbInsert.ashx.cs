@@ -58,7 +58,7 @@ namespace TestyDbTryout
                     //string @answersforstudent = context.Request["AnswersForStudent"];
                     //string @remarks = context.Request["Remarks"];
 
-                    //string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testery;User ID=Gshegoshek;Password=Greansky1965";
+                    //string connect = "Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testery;User ID=**********;Password=**********";
 
                     //string query = "INSERT INTO TestsDone(TestID, UserName, Date, StartTime, EndTime, Duration, Started," +
                     //      "Finished, AnswersForTutor, Remarks)" + "VALUES(testid, username, date, starttime," +
@@ -77,9 +77,9 @@ namespace TestyDbTryout
 
                     //context.Response.ContentType = "text/html";
                     //SqlConnection sqlConnection1 =
-                    //    new System.Data.SqlClient.SqlConnection("Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testy;User ID=Gshegoshek;Password=Greansky1965");
+                    //    new System.Data.SqlClient.SqlConnection("Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testy;User ID=**********;Password=**********");
 
-                    SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=85.255.6.42;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_Gshegoshek;Password=Greansky1965;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
+                    SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
 
                     SqlCommand cmd = new SqlCommand()
 

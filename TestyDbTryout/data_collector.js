@@ -16,7 +16,7 @@ $(document).ready(function() {
                                            
     */
     //OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO tego ma nie być na testy.engraft.pl
-    var person = prompt("Please enter your name:", "Tlen Oksyński");
+    var person = prompt("Please enter your name:", "*********");
 
     if (person === null || person === "") {
         //txt = "User cancelled the prompt.";
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     $(".loadingwheel-container").show();
 
-    //var adresMailowy = prompt("Please enter your email address:", "admin@engraft.pl");
+    //var adresMailowy = prompt("Please enter your email address:", "************");
 
     //if (adresMailowy === null || person === "") {
     //    //txt = "User cancelled the prompt.";

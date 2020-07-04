@@ -79,7 +79,7 @@ namespace TestyDbTryout
                     //SqlConnection sqlConnection1 =
                     //    new System.Data.SqlClient.SqlConnection("Data Source=LAPTOP-G\\SQLEXPRESS;Initial Catalog=Testy;User ID=**********;Password=**********");
 
-                    SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=greensky_**********;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
+                    SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection("Data Source=**********;Initial Catalog=testy;Persist Security Info=True;User ID=*******************;Password=**********;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True");
 
                     SqlCommand cmd = new SqlCommand()
 

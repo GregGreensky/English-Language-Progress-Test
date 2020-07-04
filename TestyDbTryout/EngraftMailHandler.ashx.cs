@@ -39,7 +39,7 @@ namespace TestyDbTryout
                     SmtpClient smtp = new SmtpClient("mail.engraft.pl", 587)
 
                     {
-                        Credentials = new System.Net.NetworkCredential("admin", "Greansky1965"),
+                        Credentials = new System.Net.NetworkCredential("*****", "************"),
                         DeliveryMethod = SmtpDeliveryMethod.Network,
                         DeliveryFormat = SmtpDeliveryFormat.International
 
